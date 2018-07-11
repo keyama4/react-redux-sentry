@@ -3,7 +3,13 @@ import CruchCounter from './crush-counter';
 
 class App extends Component {
   render() {
-    return (<CruchCounter/>);
+    return (
+      <div>
+        <p>数字をクリックするとインクリメントされます。</p>
+        <p>数字が5になるとCrushCounter componentがクラッシュします。</p>
+        <CruchCounter/>
+      </div>
+    );
   }
 }
 
