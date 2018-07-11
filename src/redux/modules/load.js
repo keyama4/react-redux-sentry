@@ -1,4 +1,4 @@
-import { put, takeEvery } from 'redux-saga/effects';
+import { takeEvery } from 'redux-saga/effects';
 
 /**
  * actions
@@ -36,19 +36,11 @@ export const startLoad = () => {
   };
 }
 
-const completeStartLoad = () => {
-  return {
-    type: COMPLETE_LOAD,
-    payload: { loading: false }
-  };
-}
-
 /**
  * sagas
  */
-export function* startLoadSaga() {
+export function startLoadSaga() {
   throw new Error("redux error occured.");
-  yield put(completeStartLoad());
 }
 
 export function* saga() {
