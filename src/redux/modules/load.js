@@ -38,7 +38,7 @@ export const startLoad = () => {
 
 const completeStartLoad = () => {
   return {
-    type: START_LOAD,
+    type: COMPLETE_LOAD,
     payload: { loading: false }
   };
 }
@@ -47,6 +47,7 @@ const completeStartLoad = () => {
  * sagas
  */
 export function* startLoadSaga() {
+  throw new Error("redux error occured.");
   yield put(completeStartLoad());
 }
 
