@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import CruchCounter from './crush-counter';
 
 class App extends Component {
   render() {
-    return (<div>testtest</div>);
+    return (<CruchCounter/>);
   }
 }
 
