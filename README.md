@@ -9,7 +9,7 @@ node: `v10.5.0`
 ## How To Run
 
 Change raven config argument value to your dsn.
-See here.
+See [index.js](https://github.com/keyama4/react-redux-sentry/blob/master/src/index.js).
 
 ```
 $ yarn install
