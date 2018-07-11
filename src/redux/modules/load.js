@@ -16,7 +16,7 @@ const initialState = {
 export const reducer = (state = initialState, action) => {
   switch (action.type) {
     case START_LOAD:
-    const COMPLETE_LOAD = 'COMPLETE_LOAD';
+    case COMPLETE_LOAD:
       return {
         ...state,
         ...action.payload,
