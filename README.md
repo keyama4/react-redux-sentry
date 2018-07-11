@@ -1,6 +1,6 @@
 # React Redux Sentry
 
-react-redux及びredux-sagaを使ったwebアプリケーションにsentryの導入及び動作確認のためのミニマムプロジェクトです。
+react-reduxを使ったwebアプリケーションのsentryの導入及び動作確認のためのミニマムプロジェクト。
 
 ## Requirements
 
