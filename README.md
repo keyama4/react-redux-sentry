@@ -17,7 +17,7 @@ $ yarn install
 
 
 ```
-$ yarn run
+$ yarn start
 ```
 
 
